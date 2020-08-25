@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.slider-container {
+    display: flex;
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.slider-item-1 {
+    display: none;
+}
+.slider-item-2 {
+    display: none;
+}
+
+.slider-image {
+    height: 360px;
+    widows: 720px;
+}
+
+.slider-button-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.slider-button-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
