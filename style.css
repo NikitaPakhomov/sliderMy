@@ -29,11 +29,7 @@ body {
           align-items: center;
 }
 
-.slider-item-1 {
-  display: none;
-}
-
-.slider-item-2 {
+.slider-item {
   display: none;
 }
 
@@ -42,15 +38,23 @@ body {
   widows: 720px;
 }
 
+.active {
+  display: block;
+}
+
 .slider-button-prev {
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
+  height: 360px;
   left: 0;
-  top: 50%;
+  padding: 150px 0;
 }
 
 .slider-button-next {
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
+  height: 360px;
   right: 0;
-  top: 50%;
+  padding: 150px 0;
 }
 /*# sourceMappingURL=style.css.map */
